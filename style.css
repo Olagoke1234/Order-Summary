@@ -63,6 +63,12 @@ body {
   word-spacing: 3px;
 }
 
+@media screen and (min-width: 375px) {
+  #wrapper #info #summary p {
+    width: 250px;
+  }
+}
+
 #subscription {
   display: flex;
   align-items: center;
