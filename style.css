@@ -16,19 +16,25 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  object-fit: cover;
 }
 
 #wrapper #image {
-  width: 450px;
+  background-image: url("./images/illustration-hero.svg");
+  width: 375px;
+  height: 200px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 #wrapper #image svg {
-  max-width: 450px;
+  max-width: 375px;
   border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
 #wrapper #info {
-  width: 450px;
+  width: 375px;
   border-radius: 0 0 20px 20px;
   background-color: white;
   margin-top: -5px;
@@ -39,7 +45,7 @@ body {
 }
 
 #wrapper #info #summary {
-  width: 450px;
+  width: 375px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,4 +147,13 @@ button:active {
 
 #cancel-order p:active {
   cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
